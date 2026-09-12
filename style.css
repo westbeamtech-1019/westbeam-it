@@ -137,9 +137,9 @@ nav a:hover::after {
 
 .tagline {
     color: #4da3ff;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 2.5px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
     margin-bottom: 16px;
 }
 
