@@ -323,15 +323,29 @@ nav a:hover::after {
 }
 
 
+
 /* ---------- FOOTER ---------- */
 
 footer {
+    display: block;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 28px 0;
     background: #080e14;
     color: #8e9aa7;
-    padding: 28px 0;
     font-size: 13px;
     text-align: center;
+    box-sizing: border-box;
 }
+
+footer .container {
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 
 
 /* ---------- RESPONSIVE TABLET ---------- */
