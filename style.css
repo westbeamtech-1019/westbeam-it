@@ -325,6 +325,7 @@ nav a:hover::after {
 
 
 
+
 /* ---------- FOOTER ---------- */
 
 footer {
@@ -333,18 +334,20 @@ footer {
     padding: 28px 0;
     font-size: 13px;
     text-align: center;
-
     width: 100%;
     max-width: none;
     margin: 0;
     display: block;
     box-sizing: border-box;
+    clear: both;
 }
 
 footer .container {
     width: 90%;
     max-width: 1180px;
     margin: 0 auto;
+    background: transparent;
+    box-sizing: border-box;
 }
 
 
